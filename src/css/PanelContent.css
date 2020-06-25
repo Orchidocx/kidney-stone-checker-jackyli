@@ -1,0 +1,33 @@
+.PanelContent {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+}
+
+.PanelContent-button,
+.PanelContent-selection {
+    margin-bottom: 20px;
+    font-size: 1.2rem;
+    color: white;
+    letter-spacing: 1px;
+    border: none;
+    border-radius: 10px;
+    outline: none;
+}
+
+.PanelContent-button {
+    width: 200px;
+    padding: 15px 30px;
+    background-color: #4fadeb;
+}
+
+.PanelContent-selection {
+    padding: 20px 30px;
+    background-color: #1c324b;
+    text-align: left;
+}
+
+.PanelContent-button:hover,
+.PanelContent-selection:hover {
+    cursor: pointer;
+}

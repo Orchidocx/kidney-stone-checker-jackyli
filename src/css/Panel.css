@@ -1,0 +1,36 @@
+.Panel {
+    width: 640px;
+    margin: auto;
+    margin-top: 50px;
+    width: 50%;
+    background: #EDEDF5;
+    border-radius: 20px;
+    padding: 15px 0 0 30px;
+}
+
+.Panel-container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+
+.Panel-title {
+    margin-bottom: 5px;
+}
+
+.Panel-subtitle {
+    margin-top: 0px;
+}
+
+.Panel-cancel {
+    padding-right: 20px;
+    font-size: 1.1rem;
+    color: #4fadeb;
+}
+
+.Panel-cancel:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
